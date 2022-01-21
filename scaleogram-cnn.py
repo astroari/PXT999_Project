@@ -30,6 +30,7 @@ y = np.load('downsbrlabels.npy')
 
 #%% Show first picture from each class
 
+'''
 classes = np.array(['AirCompressor', 'Blip', 'ExtremelyLoud', 'KoiFish',
        'LowFrequencyBurst', 'LowFrequencyLines', 'PowerLine',
        'RepeatingBlips', 'ScatteredLight', 'Scratchy', 'Tomte', 'Whistle'])
@@ -40,7 +41,7 @@ for i in classes:
     plt.imshow(ds[first_index])
     plt.xlabel(i)
     plt.figure()
-
+'''
     
 
 #%% Encode labels
